@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;1,400&family=Poppins:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="main">
+        <div id="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="lib-option">
+                    <div class="lib1">
+                        <img src="library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    
+                    <div class="lib1">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                    <div class="playlist">
+                        <div class="p1">Create your first playlist</div>
+                        <div class="p2">It's easy, we'll help you</div>
+                        <button class="btn btn-light">Create Playlist</button>
+                    </div>
+                    <div class="playlist">
+                        <div class="p1">Let's find some podcasts to follow</div>
+                        <div class="p2">We'll keep you updated on new episodes</div>
+                        <button class="btn btn-light" style="width: 8rem;">Browse podcasts</button>
+                    </div>
+                
+
+                <div class="policy">
+                    <div class="policy1">
+                        <div>Legal</div>
+                        <div>Privacy Center</div>
+                        <div>Privacy Policy</div>
+                    </div>
+                    <div class="policy1">
+                        <div>Cookies</div>
+                        <div>About Ads</div>
+                        <div>Accessibility</div>
+                    </div>
+                    <div class="policy1">Cookies</div>
+                </div>
+                <button class="english"><i class="fa-solid fa-globe"></i>English</button>
+            </div>
+        </div>
+        <div id="mainpart">
+            <div class="sticky-nav">
+                <div class="sticky1">
+                    <img src="backward_icon.png">
+                    <img src="forward_icon.png">
+                </div>
+                    <div class="sticky2">
+                    <button class="btn btn-light" style="width: 8rem;">Explore Premium</button>
+                    <span><i class="fa-regular fa-circle-down fa-lg" style="color: #ffffff;"></i>Install App</span>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            <div class="cards-sec">
+                <h4>Recently Played</h4>
+                    <div class="card1">
+                        <img src="card1img.jpeg" alt="recently">
+                        <h5>Top 50 Global</h5>
+                        <p>Your daily updates of the most played tracks</p>
+                    </div>
+            </div>
+            
+            <div class="cards-sec1 container">
+                <h3>Spotify Playlist</h3>
+                        <div class="card1" id="card1a">
+                            <img src="card2img.jpeg" alt="recently">
+                            <h5>Top Romantic Songs</h5>
+                            <p>Romantic Songs for Romantic Vibes...</p>
+                        </div>
+                        <div class="card1" id="card1a">
+                            <img src="card3img.jpeg" alt="recently">
+                            <h5>Top 90's Song</h5>
+                            <p>Old is Gold Songs...</p>
+                        </div>
+                        <div class="card1" id="card1a">
+                            <img src="card4img.jpeg" alt="recently">
+                            <h5>Top Disco Songs</h5>
+                            <p>Heart Vibing Songs</p>
+                        </div>
+                        <div class="card1" id="card1a">
+                            <img src="card5img.jpeg" alt="recently">
+                            <h5>Top Songs-Global</h5>
+                            <p>World Hits</p>
+                        </div>
+                        <div class="card1" id="card1a">
+                            <img src="card6img.jpeg" alt="recently">
+                            <h5>Top Songs-India</h5>
+                            <p>Everything you love....</p>
+                        </div>
+            </div>
+            <div class="footer1">
+                <div class="footer1a container">
+                    <div class="boxi1">
+                        <p>Company</p>
+                        <span>About</span><br>
+                        <span>Jobs</span><br>
+                        <span>For the Record</span>
+                    </div>
+                    <div class="boxi1">
+                        <p>Communities</p>
+                        <span>For Artists</span><br>
+                        <span>Developers</span><br>
+                        <span>Advertising</span><br>
+                        <span>Investor</span><br>
+                        <span>Vendors</span>
+                    </div>
+                    <div class="boxi1">
+                        <p>Useful Links</p>
+                        <span>Support</span><br>
+                        <span>Free Mobile Apps</span>
+                    </div>
+                    <div class="boxi1" id="social">
+                        <div class="icon"><i class="fa-brands fa-instagram fa-lg"></i></div>
+                        <div class="icon"><i class="fa-brands fa-twitter fa-lg"></i></div>
+                        <div class="icon"><i class="fa-brands fa-facebook fa-lg"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div id="musicplayer">bottom</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
